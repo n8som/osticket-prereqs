@@ -94,6 +94,7 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+  
 - From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
 
 - From the Installation Files, download and install the Rewrite Module (rewrite_amd64_en-US.msi)
