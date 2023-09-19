@@ -35,9 +35,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
 <h3>Part 1 (Create Virtual Machine in Azure)</h3>
 <p>
   
@@ -55,11 +52,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Password: osTicketPassword1! (for example/whatever you choose)
   
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
 Using Remote Desktop, access vm-osticket. This is the VM we will be installing the files linked below. 
 
@@ -68,13 +65,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 - We will use these files to install osTicket and some of the dependencies.
 
 </p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <br />
 
-<p>
-  
-![image](https://github.com/n8som/osticket-prereqs/assets/110139109/ef7adb9c-2185-4ad8-ab31-0bd456e0f644)
-
-</p>
 <p>
 
 - Install / Enable IIS in Windows WITH
@@ -88,11 +83,13 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 - [X] Common HTTP Features
 
 </p>
+<p>
+  
+![image](https://github.com/n8som/osticket-prereqs/assets/110139109/ef7adb9c-2185-4ad8-ab31-0bd456e0f644)
+
+</p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
   
 - From the Installation Files, download and install PHP Manager for IIS (PHPManagerForIIS_V1.5.0.msi)
@@ -106,11 +103,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 - From the Installation Files, download and install VC_redist.x86.exe.
 
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
 
 - From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
@@ -120,11 +117,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
   4. Use Password1 for password
 
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
 
 - Open IIS as an Admin
@@ -134,11 +131,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 - Reload IIS (Open IIS, Stop and Start the server)
 
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
   
 - Install osTicket v1.15.8
@@ -148,11 +145,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
 - Reload IIS again (Open IIS, Stop and Start the server)
   
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
   
 - Go to sites -> Default -> osTicket
@@ -169,11 +166,11 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
    - Refresh the osTicket site in your browse, observe the changes
 
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
   
 - Rename: ost-config.php
@@ -183,6 +180,9 @@ Using Remote Desktop, access vm-osticket. This is the VM we will be installing t
    - Disable inheritance -> Remove All
    - New Permissions -> Everyone -> All
 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -194,9 +194,6 @@ Continue Setting up osTicket in the browser (click Continue)
   
 </p>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 <p>
 
 From the Installation Files, download and install HeidiSQL.
@@ -212,11 +209,11 @@ From the Installation Files, download and install HeidiSQL.
    - Click “Install Now!”
 
 </p>
-<br />
-
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
 Congratulations, hopefully it is installed with no errors!
 
@@ -224,5 +221,8 @@ Congratulations, hopefully it is installed with no errors!
   - End Users osTicket URL: http://localhost/osTicket/
 
 
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
